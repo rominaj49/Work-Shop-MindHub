@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+}
+.container-nav {
+    height: 90px;
+}
+
+.container-title {
+    
+    float: left;
+    width: 65%;
+    overflow: hidden;
+    margin-right: auto;
+}
+
+.container-title h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-paths {
+    position: absolute; /*sobrepone los links al al header*/
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+}
+
+.container-paths ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.container-paths ul li {
+
+    background-color: rgb(100, 139, 189);
+    border: 1px solid #333;
+    padding: 10px 26px;
+    
+    box-shadow: 4px 2px 0px rgba(85, 85, 85, 0.996);
+    margin-right: 10px;
+    margin-top: 90px;
+    list-style: none;
+}
+
+.container-paths a {
+    color: white;
+    text-decoration: none;
+}
+
+.container-paths .path-colour li {
+    background-color: rgb(113, 189, 113);
+    border: 1px solid #333;
+}
+
+.container-paths ul li:hover {
+    transition: 0.3s;
+    background-color: rgb(113, 189, 113);
+    color: white;
+}
+
+.container-header {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: 400px;
+}
+
+.container-header-buttom {
+    margin-top: -35px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container-main {
+    display: inline-block;
+    position: relative;
+}
+
+.text-description {
+        display: inline-block;
+    margin-top: -25px;
+    margin-left: 5rem;
+}
+
+.logo,
+.text-description {
+    display: inline-block;
+    vertical-align: top; /* Alinea los elementos en la parte superior */
+
+}
+.text-description-contact {
+    display: inline-block;
+    vertical-align: top; /* Alinea los elementos en la parte superior */
+    margin: 20px; /* Ajusta el margen según sea necesario */
+}
+
+.container main .text-description{
+    margin-top: -20px;
+    display: inline-block;
+}
+
+.text-description h3 {
+    font-size: 2rem;
+}
+.text-description p{
+    margin-top: -21px;
+    font-size: 1.5rem;
+}
+
+.text-description-contact{
+    font-size: 1.5rem;
+}
+
+.layout-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#listaDescriptiva, #listaOrdenada, #listaOrdenada2, #listaDescriptiva2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+  .tabla {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    font-family: 'Arial', sans-serif;
+
+  }
+
+  .tabla th, .tabla td {
+    border: none; /* Elimina los bordes de las celdas */
+    text-align: left;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+.contact{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.subrayado {
+    text-decoration: underline;
+  }
+
+  h1, p{
+    font-family: 'Arial', sans-serif;
+
+  }

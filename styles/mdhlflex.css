@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 90px;
+}
+
+.container-title {
+    flex-basis: 65%;
+    align-content: center;
+    overflow: hidden; /* Oculta el contenido que se desborda del contenedor */
+    margin-right: auto;
+    background-color: aliceblue;
+   
+}
+h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-paths{
+    display: flex;
+    justify-items: baseline;
+    align-items: end;
+    flex-basis: 35%;
+    background-color:beige ;
+    justify-content: center;
+}
+
+.container-paths ul li{
+    
+    background-color: rgb(46, 46, 184);
+    border: 1px solid #333; /* Agrega un borde sólido de 2px y color gris oscuro */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: 4px 2px 0px rgba(119, 118, 118, 0.996); /* Agrega sombra */
+    margin-top: 300px;
+    list-style: none; /* Elimina los puntos de la lista */
+    text-decoration: none;
+}
+
+.container-paths a{
+    color: white;
+    text-decoration: none;
+}
+.container-paths .home li {
+       
+    background-color: rgb(113, 189, 113);
+    border: 1px solid #333; /* Agrega un borde sólido de 2px y color gris oscuro */ 
+}
+.container-paths ul li:hover{
+    transition: 0.3s; /* Agrega transición a la propiedad box-shadow */
+    background-color: rgb(113, 189, 113);
+    color: white;
+
+
+}
+
+
+.container-header{
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ajusta el ancho al 100% */
+    background-color: blueviolet;
+
+}
+.banner img{
+    width: 100%; 
+    height: 400px;
+
+}
+
+.container-header-buttom{ 
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   font-size: 1.5rem;
+   background-color: aquamarine;
+    
+}
+
+.container-main{
+    display: flex;
+}
+.text-description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+}
