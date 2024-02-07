@@ -159,3 +159,39 @@ body{
     font-family: 'Arial', sans-serif;
 
   }
+
+
+  fieldset {
+    margin-left: 350px;
+    width: 800px; /* Ajusta según sea necesario */
+    border: 1px solid #ccc; /* Borde opcional */
+    padding: 10px;}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+/* Estilo para que la ciudad ocupe toda la fila */
+.container-line {
+    display: flex;    
+}
+.input-width{
+    width: 100%;
+}
+.container-row-padre{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-row-item{
+    display: flex;
+    flex-direction: column;
+
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
