@@ -1,6 +1,12 @@
 body{
     margin: 0;
 }
+
+.logoMain{
+    height: 300px;
+    width:300px; 
+}
+
 .container-nav {
     height: 90px;
 }
@@ -20,9 +26,8 @@ body{
 
 .container-paths {
     position: absolute; /*sobrepone los links al al header*/
-    display: inline-block;
-    width: 35%;
     text-align: center;
+    margin-left: 700px;
 }
 
 .container-paths ul {
@@ -116,6 +121,8 @@ body{
 
 .layout-container{
     display: flex;
+    margin-left: 100px;
+    margin-top: 80px;
     flex-direction: column;
     align-content: center;
     align-items: center;
@@ -160,6 +167,9 @@ body{
 
   }
 
+  .form-container{
+    margin-top: 100px;
+  }
 
   fieldset {
     margin-left: 350px;
@@ -194,4 +204,9 @@ label, input {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.map{
+    width: 300px;
+    height: 100px;
 }
